@@ -48,7 +48,7 @@ function App() {
           <Routes>
             <Route exact path="/about" element={<About />}></Route>
             <Route
-              exact path={"/learning-react"}
+              exact path="/learning-react"
               element={
                 <TextForm
                   showAlert={showAlert}
@@ -58,7 +58,7 @@ function App() {
               }
             ></Route>
             <Route
-              exact path={"/"}
+              exact path="/"
               element={
                 <TextForm
                   showAlert={showAlert}
