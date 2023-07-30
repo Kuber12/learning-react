@@ -44,9 +44,9 @@ function App() {
           changeMode={changeMode}
         />
         <Alert alert={alert} />
-        <div className="container my-4" mode={mode}>
+        <div className="container my-4">
           <Routes>
-            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/about" element={<About mode={mode}/>}></Route>
             <Route
               exact path="/learning-react"
               element={

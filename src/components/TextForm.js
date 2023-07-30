@@ -54,11 +54,11 @@ export default function TextForm(props) {
             <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8" style={{backgroundColor: props.mode ==="dark"?"black":"white",color:  props.mode ==="dark"?"white":"black"}}></textarea>
             </div>
-            <button className="btn btn-primary mx-2" onClick={handleUpcaseClick}>Convert to uppercase</button>
-            <button className="btn btn-primary mx-2" onClick={handleLowerClick}>Convert to lowercase</button>
-            <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear</button>
-            <button className="btn btn-primary mx-2" onClick={aAdderClick}>A adder</button>
-            <button className="btn btn-primary mx-2" onClick={capitalizeClick}>Capitalize</button>
+            <button className="btn btn-primary mx-2 my-2" onClick={handleUpcaseClick}>Convert to uppercase</button>
+            <button className="btn btn-primary mx-2 my-2" onClick={handleLowerClick}>Convert to lowercase</button>
+            <button className="btn btn-primary mx-2 my-2" onClick={handleClearClick}>Clear</button>
+            <button className="btn btn-primary mx-2 my-2" onClick={aAdderClick}>A adder</button>
+            <button className="btn btn-primary mx-2 my-2" onClick={capitalizeClick}>Capitalize</button>
             <button className="btn btn-warning mx-2 my-2" onClick={speak} >Speak</button>
         </div>                      
         <div className="preview">
